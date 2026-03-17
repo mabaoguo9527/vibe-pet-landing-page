@@ -34,3 +34,8 @@ pnpm-debug.log*
 
 # TypeScript
 *.tsbuildinfo
+
+# 旧的 JS/JSX 文件（已迁移至 TypeScript）
+src/**/*.jsx
+src/**/*.js
+vite.config.js
