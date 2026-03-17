@@ -1,0 +1,59 @@
+/* ── Design Tokens ── */
+:root {
+  --clr-primary:   #2563EB;
+  --clr-primary-d: #1D4ED8;
+  --clr-primary-l: #DBEAFE;
+  --clr-secondary: #F59E0B;
+  --clr-accent:    #10B981;
+  --clr-sky:       #38BDF8;
+  --clr-bg:        #F0F7FF;
+  --clr-surface:   #FFFFFF;
+  --clr-text:      #1E293B;
+  --clr-muted:     #64748B;
+  --clr-border:    #E2EAF4;
+
+  --radius-sm:  8px;
+  --radius-md:  16px;
+  --radius-lg:  28px;
+  --radius-xl:  48px;
+
+  --shadow-sm:  0 2px 8px rgba(37,99,235,.08);
+  --shadow-md:  0 8px 32px rgba(37,99,235,.12);
+  --shadow-lg:  0 20px 60px rgba(37,99,235,.16);
+
+  --font-body:  'Nunito', sans-serif;
+  --font-brand: 'Pacifico', cursive;
+
+  --transition: .25s cubic-bezier(.4,0,.2,1);
+}
+
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+img { display: block; max-width: 100%; }
+a { text-decoration: none; color: inherit; }
+
+/* ── Scroll reveal ── */
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* ── Toast ── */
+.toast {
+  position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%) translateY(80px);
+  background: var(--clr-accent); color: #fff; padding: 16px 28px;
+  border-radius: var(--radius-xl); font-weight: 800; font-size: .95rem;
+  box-shadow: var(--shadow-lg); z-index: 999; transition: transform .4s cubic-bezier(.4,0,.2,1);
+  display: flex; align-items: center; gap: 10px; white-space: nowrap;
+}
+.toast.show { transform: translateX(-50%) translateY(0); }
+
+/* ── Float animation ── */
+@keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.6;transform:scale(1.3)} }

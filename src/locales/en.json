@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "brand": "Pawfect",
+    "services": "Services",
+    "howItWorks": "How It Works",
+    "reviews": "Reviews",
+    "booking": "Book Now",
+    "call": "📞 Call Us"
+  },
+  "hero": {
+    "badge": "Now accepting new clients!",
+    "title1": "Your Pet Deserves",
+    "title2": "to Look Pawfect",
+    "desc": "Professional grooming with a gentle touch. We treat every furry friend like family — because they are. 🐶🐱",
+    "cta": "Book a Session 🐾",
+    "services": "See Services",
+    "stat1Num": "2,400+",
+    "stat1Label": "Happy Pets",
+    "stat2Num": "4.9★",
+    "stat2Label": "Avg. Rating",
+    "stat3Num": "8 yrs",
+    "stat3Label": "Experience",
+    "floatCard1Title": "Expert Stylists",
+    "floatCard1Sub": "Certified & Caring",
+    "floatCard2Title": "Sarah's Poodle",
+    "floatCard3Title": "Spa Treatment",
+    "floatCard3Sub": "From $35"
+  },
+  "trust": {
+    "label": "Trusted by pet owners from"
+  },
+  "services": {
+    "label": "✨ Our Services",
+    "title": "Everything Your Pet Needs",
+    "sub": "From a quick bath to a full spa day — we've got your furry bestie covered.",
+    "popular": "Popular",
+    "new": "New",
+    "from": "from",
+    "perSession": "/ session",
+    "items": [
+      {
+        "icon": "🛁",
+        "title": "Bath & Brush",
+        "desc": "A thorough shampoo, conditioning treatment, blow-dry, and brush-out to leave your pet fresh and fluffy.",
+        "price": "$35"
+      },
+      {
+        "icon": "✂️",
+        "title": "Full Groom",
+        "desc": "Complete styling including bath, haircut, nail trim, ear cleaning, and a spritz of pet-safe cologne.",
+        "price": "$65",
+        "tag": "popular"
+      },
+      {
+        "icon": "💅",
+        "title": "Nail Trim & File",
+        "desc": "Quick and stress-free nail trimming and filing to keep your pet comfortable and your floors scratch-free.",
+        "price": "$18"
+      },
+      {
+        "icon": "🦷",
+        "title": "Teeth Brushing",
+        "desc": "Gentle teeth brushing with pet-safe toothpaste to promote oral health and freshen that puppy breath.",
+        "price": "$22"
+      },
+      {
+        "icon": "🌸",
+        "title": "Spa Package",
+        "desc": "The ultimate pampering experience — aromatherapy bath, deep conditioning mask, massage, and more.",
+        "price": "$95",
+        "tag": "new"
+      },
+      {
+        "icon": "🐱",
+        "title": "Cat Grooming",
+        "desc": "Specialized gentle grooming for our feline friends — de-shedding, mat removal, and coat conditioning.",
+        "price": "$55"
+      }
+    ]
+  },
+  "how": {
+    "label": "🗓️ How It Works",
+    "title": "3 Easy Steps to a Happy Pet",
+    "sub": "Getting your pet groomed has never been simpler. We handle everything!",
+    "steps": [
+      {
+        "title": "Book Online or Call",
+        "desc": "Choose your service, pick a date and time that works for you, and fill in your pet's details. Takes less than 2 minutes!"
+      },
+      {
+        "title": "Drop Off Your Furball",
+        "desc": "Bring your pet to our cozy salon. We'll greet them with treats and love to make them feel right at home."
+      },
+      {
+        "title": "Pick Up a Happy, Clean Pet",
+        "desc": "We'll text you when they're ready. Come pick up your freshly groomed, tail-wagging best friend!"
+      }
+    ]
+  },
+  "reviews": {
+    "label": "💬 Happy Customers",
+    "title": "Tails Are Wagging!",
+    "sub": "Don't just take our word for it — hear from our furry clients' humans.",
+    "items": [
+      {
+        "text": "\"Pawfect is absolutely amazing! My golden retriever Max comes out looking like a show dog every single time. The staff is so gentle and caring — he actually gets excited to go!\"",
+        "name": "Sarah M.",
+        "role": "Max's Mom 🐕",
+        "avatar": "👩",
+        "avatarBg": "#DBEAFE"
+      },
+      {
+        "text": "\"I was nervous about bringing my anxious rescue cat, but the team was incredibly patient. Luna came home relaxed and smelling like lavender. We're regulars now!\"",
+        "name": "James K.",
+        "role": "Luna's Dad 🐱",
+        "avatar": "👨",
+        "avatarBg": "#DBEAFE"
+      },
+      {
+        "text": "\"The spa package is worth every penny! My poodle Coco gets the full treatment and honestly looks better than me after. The online booking is super easy too.\"",
+        "name": "Emily R.",
+        "role": "Coco's Mom 🐩",
+        "avatar": "👩",
+        "avatarBg": "#DBEAFE"
+      }
+    ]
+  },
+  "booking": {
+    "label": "📅 Book Now",
+    "title": "Ready for a Pawsome Makeover?",
+    "sub": "Fill in the form below and we'll confirm your appointment within 1 hour. First-time clients get 15% off! 🎉",
+    "fields": {
+      "ownerName": "Your Name",
+      "ownerNamePlaceholder": "Jane Smith",
+      "phone": "Phone Number",
+      "phonePlaceholder": "(555) 123-4567",
+      "petName": "Pet's Name",
+      "petNamePlaceholder": "Buddy",
+      "petType": "Pet Type",
+      "petTypePlaceholder": "Select...",
+      "petTypes": ["Dog 🐕", "Cat 🐱", "Rabbit 🐰", "Other"],
+      "service": "Service",
+      "servicePlaceholder": "Choose a service...",
+      "services": [
+        "Bath & Brush – $35",
+        "Full Groom – $65",
+        "Nail Trim & File – $18",
+        "Teeth Brushing – $22",
+        "Spa Package – $95",
+        "Cat Grooming – $55"
+      ],
+      "date": "Preferred Date"
+    },
+    "submit": "🐾 Book My Appointment — It's Free!",
+    "note": "🔒 No payment required to book. We'll confirm via text or call.",
+    "successMsg": "🎉 Booking request sent! We'll confirm shortly.",
+    "errorMsg": "⚠️ Please fill in all required fields."
+  },
+  "footer": {
+    "desc": "Professional pet grooming with love and care. Your pet's happiness is our top priority. 🐾",
+    "servicesTitle": "Services",
+    "companyTitle": "Company",
+    "contactTitle": "Contact",
+    "company": ["About Us", "Our Team", "Reviews", "Blog", "Careers"],
+    "contact": {
+      "phone": "📞 (555) 123-4567",
+      "email": "✉️ hello@pawfect.com",
+      "address": "📍 123 Bark Street, NY",
+      "weekday": "Mon–Sat: 8am–7pm",
+      "weekend": "Sun: 10am–5pm"
+    },
+    "copyright": "© 2025 Pawfect Grooming. Made with ❤️ for pets everywhere."
+  }
+}

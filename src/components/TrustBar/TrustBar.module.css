@@ -1,0 +1,16 @@
+.bar {
+  padding: 28px 0;
+  border-top: 1px solid var(--clr-border);
+  border-bottom: 1px solid var(--clr-border);
+  background: var(--clr-surface);
+}
+.container {
+  max-width: 1160px; margin: 0 auto; padding: 0 24px;
+  display: flex; align-items: center; gap: 40px; flex-wrap: wrap; justify-content: center;
+}
+.label {
+  font-size: .8rem; font-weight: 700; color: var(--clr-muted);
+  text-transform: uppercase; letter-spacing: .08em; white-space: nowrap;
+}
+.logos { display: flex; align-items: center; gap: 36px; flex-wrap: wrap; justify-content: center; }
+.logo { font-weight: 800; font-size: 1rem; color: #C8D4E8; letter-spacing: -.02em; }

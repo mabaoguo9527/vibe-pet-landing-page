@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "brand": "Pawfect",
+    "services": "服务项目",
+    "howItWorks": "预约流程",
+    "reviews": "客户评价",
+    "booking": "立即预约",
+    "call": "📞 电话咨询"
+  },
+  "hero": {
+    "badge": "现在接受新客户预约！",
+    "title1": "您的宠物值得",
+    "title2": "完美造型",
+    "desc": "专业美容，温柔呵护。我们把每一只毛茸茸的小家伙都当作家人对待——因为它们本就是。🐶🐱",
+    "cta": "立即预约 🐾",
+    "services": "查看服务",
+    "stat1Num": "2,400+",
+    "stat1Label": "快乐宠物",
+    "stat2Num": "4.9★",
+    "stat2Label": "平均评分",
+    "stat3Num": "8年",
+    "stat3Label": "从业经验",
+    "floatCard1Title": "专业美容师",
+    "floatCard1Sub": "持证上岗 · 温柔专业",
+    "floatCard2Title": "Sarah 的贵宾犬",
+    "floatCard3Title": "SPA 护理",
+    "floatCard3Sub": "低至 ¥250"
+  },
+  "trust": {
+    "label": "受到各地宠物主人的信赖"
+  },
+  "services": {
+    "label": "✨ 服务项目",
+    "title": "宠物所需，一站搞定",
+    "sub": "从简单洗澡到全套 SPA——我们为您的毛茸茸好朋友提供全方位服务。",
+    "popular": "热门",
+    "new": "新品",
+    "from": "起",
+    "perSession": "/ 次",
+    "items": [
+      {
+        "icon": "🛁",
+        "title": "洗澡 & 梳毛",
+        "desc": "全面洗护、护毛素护理、吹干梳理，让您的宠物清爽蓬松。",
+        "price": "¥250"
+      },
+      {
+        "icon": "✂️",
+        "title": "全套美容",
+        "desc": "完整造型服务，包含洗澡、修剪、剪指甲、清洁耳朵及宠物专用香水。",
+        "price": "¥450",
+        "tag": "popular"
+      },
+      {
+        "icon": "💅",
+        "title": "修剪指甲",
+        "desc": "快速无压力的指甲修剪与打磨，让宠物舒适，地板无划痕。",
+        "price": "¥120"
+      },
+      {
+        "icon": "🦷",
+        "title": "刷牙护理",
+        "desc": "使用宠物专用牙膏轻柔刷牙，促进口腔健康，告别口臭。",
+        "price": "¥150"
+      },
+      {
+        "icon": "🌸",
+        "title": "SPA 套餐",
+        "desc": "终极宠爱体验——芳香浴、深层护理面膜、按摩等一应俱全。",
+        "price": "¥680",
+        "tag": "new"
+      },
+      {
+        "icon": "🐱",
+        "title": "猫咪美容",
+        "desc": "专为猫咪设计的温柔美容——去浮毛、去毛结、毛发护理。",
+        "price": "¥380"
+      }
+    ]
+  },
+  "how": {
+    "label": "🗓️ 预约流程",
+    "title": "三步轻松搞定",
+    "sub": "预约宠物美容从未如此简单，我们全程为您服务！",
+    "steps": [
+      {
+        "title": "在线预约或致电",
+        "desc": "选择服务项目，选定日期和时间，填写宠物信息。全程不超过 2 分钟！"
+      },
+      {
+        "title": "送来您的小可爱",
+        "desc": "将宠物带到我们温馨的美容店，我们会用零食和爱心迎接它们，让它们宾至如归。"
+      },
+      {
+        "title": "接走干净快乐的宠物",
+        "desc": "美容完成后我们会发短信通知您，来接走您刚刚焕然一新、摇着尾巴的好朋友吧！"
+      }
+    ]
+  },
+  "reviews": {
+    "label": "💬 客户好评",
+    "title": "尾巴都摇起来了！",
+    "sub": "不只是我们说好——听听宠物主人们怎么说。",
+    "items": [
+      {
+        "text": "「Pawfect 真的太棒了！我的金毛 Max 每次出来都像参加狗展一样。工作人员非常温柔细心——它现在一听到要去美容就兴奋得不行！」",
+        "name": "Sarah M.",
+        "role": "Max 的铲屎官 🐕",
+        "avatar": "👩",
+        "avatarBg": "#DBEAFE"
+      },
+      {
+        "text": "「我很担心带我那只焦虑的救助猫去，但团队非常有耐心。Luna 回来后放松极了，还带着薰衣草香。我们现在是常客了！」",
+        "name": "James K.",
+        "role": "Luna 的铲屎官 🐱",
+        "avatar": "👨",
+        "avatarBg": "#DBEAFE"
+      },
+      {
+        "text": "「SPA 套餐物超所值！我的贵宾犬 Coco 享受全套服务后，说实话比我还精致。在线预约也超级方便。」",
+        "name": "Emily R.",
+        "role": "Coco 的铲屎官 🐩",
+        "avatar": "👩",
+        "avatarBg": "#DBEAFE"
+      }
+    ]
+  },
+  "booking": {
+    "label": "📅 立即预约",
+    "title": "准备好来一次完美变身了吗？",
+    "sub": "填写下方表单，我们将在 1 小时内确认您的预约。首次预约享 85 折优惠！🎉",
+    "fields": {
+      "ownerName": "您的姓名",
+      "ownerNamePlaceholder": "张三",
+      "phone": "联系电话",
+      "phonePlaceholder": "138 0000 0000",
+      "petName": "宠物名字",
+      "petNamePlaceholder": "小白",
+      "petType": "宠物类型",
+      "petTypePlaceholder": "请选择...",
+      "petTypes": ["狗狗 🐕", "猫咪 🐱", "兔子 🐰", "其他"],
+      "service": "服务项目",
+      "servicePlaceholder": "请选择服务...",
+      "services": [
+        "洗澡 & 梳毛 – ¥250",
+        "全套美容 – ¥450",
+        "修剪指甲 – ¥120",
+        "刷牙护理 – ¥150",
+        "SPA 套餐 – ¥680",
+        "猫咪美容 – ¥380"
+      ],
+      "date": "预约日期"
+    },
+    "submit": "🐾 立即预约——完全免费！",
+    "note": "🔒 预约无需付款，我们将通过短信或电话确认。",
+    "successMsg": "🎉 预约请求已发送！我们将尽快与您联系。",
+    "errorMsg": "⚠️ 请填写所有必填项。"
+  },
+  "footer": {
+    "desc": "专业宠物美容，用爱与关怀。您宠物的快乐是我们最大的心愿。🐾",
+    "servicesTitle": "服务项目",
+    "companyTitle": "关于我们",
+    "contactTitle": "联系方式",
+    "company": ["关于我们", "团队介绍", "客户评价", "美容日志", "加入我们"],
+    "contact": {
+      "phone": "📞 400-888-8888",
+      "email": "✉️ hello@pawfect.cn",
+      "address": "📍 北京市朝阳区宠物街 123 号",
+      "weekday": "周一至周六：8:00–19:00",
+      "weekend": "周日：10:00–17:00"
+    },
+    "copyright": "© 2025 Pawfect 宠物美容。用 ❤️ 为天下宠物打造。"
+  }
+}
